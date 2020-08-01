@@ -1,0 +1,267 @@
+.container-fluid {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+body{
+  background-color: #f4f6ff;
+}
+
+.intro{
+  width: 30%;
+  text-align: center;
+  margin-left: 35%;
+  line-height: 2;
+}
+
+.skill-row{
+  width: 50%;
+  margin:50px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  padding-bottom: 20px;
+}
+
+.image1{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.aspace{
+  margin-left: 50px;
+}
+
+.contact-div{
+  text-align: center;
+  margin-top: 30px;
+  line-height: 20px;
+  font-size: 20px;
+  font-family: 'Ubuntu';
+}
+
+.image2{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.programmer{
+
+  margin-left: 30%;
+}
+
+.myimg{
+  border-radius: 100%;
+  height: 10%;
+  width: 12%;
+}
+
+h3{
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.topcontainer{
+  position: relative;
+  padding-top: 100px;
+  background-color: #e4f9f5;
+}
+
+.middle-container{
+  margin: 50px 0 0 0;
+  color: #40514e;
+  text-align: center;
+  font-family: 'Merriweather',serif;
+}
+
+.abt-para{
+    font-weight: bold;
+}
+
+.abt-h2{
+  padding-top: 10px;
+  color: #66bfbf;
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+.abt-h3{
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bottom-container{
+background-color: #66bfbf;
+padding: 30px 0 10px 0;
+}
+
+.navbar {
+  background-color: black;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border: 0;
+    color: black;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+    font-size: 10px;
+}
+.navbar-brand{
+  font-family: 'Rock Salt', cursive;
+  color: white;
+  font-size: 40px;
+}
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #1abc9c;
+}
+
+.bg{
+
+  text-align: center;
+  background-color: black;
+  background-image: url(../../img1.png);
+  height: 500px;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-blend-mode: lighten;
+
+  color: white;
+}
+
+.home-heading{
+  font-family: 'Merienda One', cursive;
+  font-size: 50px;
+  padding-top:170px;
+  margin-top: 0px;
+  color: white;
+}
+
+.home-para{
+  padding-top: 10px;
+  font-family: 'Merienda One', cursive;
+  font-size: 20px;
+  color: white;
+}
+
+.blog{
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.footer p {
+	margin-top: 15px;
+	font-size: 17px;
+  color: #fff;
+}
+
+.form{
+  display: block;
+  padding: 20px 0;
+}
+.mybtn{
+  margin: 10px auto;
+}
+
+hr{
+  border-style: dotted;
+  border-color: grey;
+  border-width: 5px 0 0 0;
+  width: 20%;
+}
+
+h2{
+  font-family: 'Fondamento', sans-serif;
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+
+.comp{
+  font-family: 'Fondamento', sans-serif;
+  font-size: 60px;
+  text-decoration: underline;
+  padding: 15px;
+  text-align: center;
+}
+
+.form1{
+  margin: 50px 150px;
+}
+.lab{
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.see{
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+
+.mypara{
+  display: block;
+  margin-top: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: left;
+  line-height: 2;
+  font-size: 20px;
+}
+
+.abt-head{
+  text-align: center;
+  font-family: 'Merienda One', cursive;
+  font-size: 40px;
+  padding-top:40px;
+  padding-bottom: 20px;
+  margin-top: 0px;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.middle{
+  border-radius: 0;
+}
+.bottom{
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}

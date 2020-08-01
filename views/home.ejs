@@ -1,0 +1,22 @@
+
+<%-include("partials/header");-%>
+
+<div class="bg">
+
+    <h1 class="home-heading">Where will you go next?</h1>
+    <p class="home-para"><%=homeIntro%></p>
+
+</div>
+
+
+<% for(var i=0;i<BlogPosts.length;i++){%>
+  <div class="blog">
+    <h2><%= BlogPosts[i].title%></h2>
+    <h4><%=BlogPosts[i].date%></h4>
+    <p class="mypara"><%= BlogPosts[i].content.substring(0,500)+"..."%></p>
+    <a class="see" href="/posts/<%=BlogPosts[i].title%>"> See More</a>
+    <hr>
+  <%}%>
+  </div>
+
+<%-include("partials/footer");-%>
